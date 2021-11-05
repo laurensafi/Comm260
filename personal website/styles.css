@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+body{
+    height: 100vh;
+    background: rgb(243, 239, 226);
+}
+header{
+    padding: 30px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+header ul{
+    float: center;
+    list-style: none;
+    font-size: 20px;
+}
+header ul li{
+    display: inline-block;
+    padding: 0 35px;
+    color: black;
+}
+.container{
+    max-width:2000px;
+    margin:auto;
+    overflow:auto;
+}    
+.gallery{
+    margin: 5px;
+    border:0px solid #ccc;
+    float:left;
+    width:400px;
+}
+.gallery img{
+    width:100%;
+    height:auto; 
+}
+.desc{
+    padding:15px;
+    text-align: center;
+}
