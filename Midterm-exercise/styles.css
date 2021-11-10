@@ -1,6 +1,6 @@
 
 h2 {
-    color:gray;
+    color:grey;
     text-align:left;
 }
 
@@ -17,4 +17,9 @@ p2 {
     font-size: 100%;
     text-indent: 50px;
 
+}
+.lakeplace {
+    float:left;
+    margin: 0px;
+   
 }
