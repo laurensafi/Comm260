@@ -11,7 +11,7 @@ body{
 h1{
     padding: 10px;
     margin: 0em;
-    font-size: 56px;
+    font-size: 59px;
     color: rgb(31, 30, 30);
     text-align: center;
     font-family:'Dawning of a New Day', cursive;
@@ -130,11 +130,8 @@ h2{
     font-weight: 500;
     top: 10%;
 }
-.textwrap2 p:hover{
-background-color: bisque;
-width:170px;
-height:45px;
-}
+
+
 
 .paragraph1 p{
     margin: 0px;
@@ -191,19 +188,28 @@ width: 100%;
 }
 
 .box1{
-    width: 400px;
+    width: 300px;
     height:300px;
     background:transparent;
     margin: 0px;
     box-sizing: border-box;
-    color: rgb(212, 146, 126);
+
 }
-.box1 p{
+.box1 ul li{
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     font-family:sans-serif;
-    margin-top: 80px;
+    margin-top: 58px;
+    list-style: none;
+    
 }
+.box1 ul li a{
+    color:rgb(212, 146, 126);
+}
+.box1 ul{
+    line-height: 0px;
+}
+
 
 .box2{
     width: 400px;
@@ -220,18 +226,25 @@ width: 100%;
 }
 
 .box3{
-    width: 400px;
+    width: 250px;
     height:300px;
     background:transparent;
     margin: 0px;
     box-sizing: border-box;
     color: rgb(212, 146, 126);
 }
-.box3 p{
+.box3 li{
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     font-family:sans-serif;
-    margin-top: 80px;
+    margin-top: 58px;
+    list-style: none;
+}
+.box3 ul li a{
+    color:rgb(212, 146, 126);
+}
+.box3 ul{
+    line-height: 0px;
 }
 
     
@@ -248,4 +261,47 @@ width: 100%;
 }
 
 
+.topwrapper {
+    position:relative;
+    margin-top: -500px;
+    margin-left: 15px;
+    font-family:'Poiret One', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: -300px;
+    font-weight: bold;
+}
 
+.bottomwrapper {
+    position:relative;
+    margin-top: -500px;
+    margin-left: 15px;
+    font-family:'Poiret One', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: -300px;
+    font-weight: bold;
+}
+.bottomcontainer{
+   max-width: 1300px; 
+   margin: auto;
+   background: white;
+   overflow: auto;
+}
+.merch{
+    margin:5px;
+    margin-left: 12px;
+    float:left; 
+    width: 400px;
+}
+
+.merch img{
+width: 400px;
+height:520px;
+}
+.desc{
+    padding:15px;
+    text-align: center;
+}
